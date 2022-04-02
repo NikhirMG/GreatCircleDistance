@@ -18,9 +18,9 @@ def Calculation(latitude_1, latitude_2, longitude_1, longitude_2):
     latitude_2 = radians(latitude_2)
 
     #Haversine formula
-    longitude = longitude_2 - longitude_1
-    latitude = latitude_2 - latitude_1
-    a = sin(latitude / 2)**2 + cos(latitude_1) * cos(latitude_2) * sin(longitude / 2)**2
+    dif_longitude = longitude_2 - longitude_1
+    dif_latitude = latitude_2 - latitude_1
+    a = sin(dif_latitude / 2)**2 + cos(latitude_1) * cos(latitude_2) * sin(dif_longitude / 2)**2
  
     c = 2 * asin(sqrt(a))
     
