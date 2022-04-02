@@ -41,7 +41,7 @@ def Begin():
 
 #Beginning 
 print("Welcome Human |ʘ‿ʘ)╯,")
-print("\nThis Program allows you to compute Great circle distance between two points on the earth's surface")
+print("\nThis Program allows you to compute the great circle distance between two points on the earth's surface")
 print("\n\nPlease use the Decimal degree format of your coordinates(i.e. 42.3601) ")  
 Begin()
 AskUser()
